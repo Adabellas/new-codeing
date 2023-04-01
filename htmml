@@ -1,0 +1,7 @@
+/* script.js */
+
+const heading = document.querySelector('h1');
+heading.style.textTransform = 'uppercase';
+
+const paragraph = document.querySelector('p');
+paragraph.style.fontWeight = 'bold';
