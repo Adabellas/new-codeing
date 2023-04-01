@@ -1,0 +1,7 @@
+<script>
+  const button = document.querySelector('.button');
+  button.addEventListener('click', function() {
+    const box = document.querySelector('.box');
+    box.classList.toggle('move');
+  });
+</script>
