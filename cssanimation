@@ -1,0 +1,24 @@
+<style>
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes move {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    100% {
+      left: 200px;
+      top: 200px;
+    }
+  }
+</style>
+<div class="box"></div>
